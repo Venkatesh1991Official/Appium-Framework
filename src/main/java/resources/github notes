@@ -1,0 +1,22 @@
+Important github notes :
+-----------------------------------
+basic git commands : https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+
+Configure username and email as below :
+-----------------------------------------
+1: git config --global user.name "Venkatesh"
+2 : git config --global user.email "vekatesh230691@gmail.com"
+
+Create a new local folder and copy all the required project details in it to push
+
+initialise the local repository using the below command :
+git init
+
+to add all the files into the stash use the below command
+git add * (or) git add "full path of the file"
+
+To know the status of the files use the below command
+git status
+
+commit command as below
+git commit -m "commit message"
